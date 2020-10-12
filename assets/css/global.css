@@ -1,0 +1,12 @@
+.editar{
+    border-radius: 12px;
+    padding: 10px 24px;
+    background-color: #4CAF50;
+    color: white;
+}
+.voltar{
+    border-radius: 12px;
+    padding: 10px 24px;
+    background-color: #008CBA;
+    color: white;
+}
