@@ -20,7 +20,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <h4>Projeto P21</h4>
+                <h4>Colaboradores</h4>
                 <button type="submit" class="editar" id="bt-send-registration">
                     <a href="<?php echo base_url() . 'employees/add'?>">
                         <span role="status" class="spinner-border spinner-border-sm" hidden></span>
@@ -77,6 +77,7 @@
     <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2/dist/i18n/pt-br.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@0/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/noty@3.2.0-beta/lib/noty.min.js"></script>
+    <script src="https://cdnjs.com/libraries/jquery-migrate"></script>
     <script src="<?php echo base_url('assets/js/global.js') ?>"></script>
 
 </body>

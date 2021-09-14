@@ -43,7 +43,7 @@
                     <div class="form-group col-sm-6">
                         <label for="tf-name"> Nome Completo
                         </label>
-                        <input type="text" class="form-control" name="tf-name" id="tf-name" placeholder="João da Silda" required data-parsley-name>
+                        <input type="text" class="form-control" name="tf-name" id="tf-name" placeholder="João da Silva" required data-parsley-name>
                     </div>
                     <div class="form-group col-sm-3">
                         <label for="tf-name"> Data de nascimento
@@ -69,10 +69,6 @@
                     <div class="form-group col-sm-4">
                         <label for="tf-phone">Telefone <i class="fab fa-whatsapp"></i></label>
                         <input type="tel" class="form-control" name="tf-phone" id="tf-phone" placeholder="(00) 00000-0000" required data-parsley-phone>
-                    </div>
-                    <div class="form-group col-sm-4">
-                        <label for="tf-phone">Adicionar outros telefones <i class="fas fa-plus-circle"></i></label>
-                        <textarea id="others-phone" class="form-control" name="others-phone" rows="5" cols="33"></textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -127,6 +123,8 @@
     <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2/dist/i18n/pt-br.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@0/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/noty@3.2.0-beta/lib/noty.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="<?php echo base_url('assets/js/global.js') ?>"></script>
 
 </body>
